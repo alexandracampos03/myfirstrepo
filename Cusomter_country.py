@@ -1,6 +1,6 @@
  
 
-import csv 
+import csv
 
 infile = open('customers.csv','r')
 csv_obj = csv.reader(infile, delimiter = ',')
